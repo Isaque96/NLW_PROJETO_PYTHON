@@ -1,0 +1,7 @@
+-- Comando para criar ambiente virtual de desenvolvimento
+python -m venv venv
+
+-- Para ativar basta chamar algum script dentro da pasta Scripts
+
+-- Comando para gerar um arquivo .txt com todas as bibliotecas usadas
+pip freeze > requirements.txt
