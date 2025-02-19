@@ -2,6 +2,7 @@
 python -m venv venv
 
 -- Para ativar basta chamar algum script dentro da pasta Scripts
+./venv/Scripts/Activate.ps1
 
 -- Comando para gerar um arquivo .txt com todas as bibliotecas usadas
 pip freeze > requirements.txt
