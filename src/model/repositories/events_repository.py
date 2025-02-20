@@ -21,5 +21,5 @@ class EventsRepository(EventsRepositoryInterface):
           .filter(Eventos.nome == event_name)
           .one_or_none()
       )
-      return data
+    return data
       
