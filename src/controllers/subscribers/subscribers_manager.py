@@ -14,7 +14,7 @@ class SubscriberManager():
     return self.__format_subs_by_link(subs)
 
   def get_events_ranking(self, http_request: HttpRequest) -> HttpResponse:
-    event_id = http_request.param["event_id"]
+    event_id = http_request.params["event_id"]
     event_ranking = self.__subscriber_repo.get_ranking(event_id)
 
     return self.__format_event_ranking(event_ranking)
